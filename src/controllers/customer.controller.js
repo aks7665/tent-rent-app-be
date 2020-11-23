@@ -56,7 +56,6 @@ exports.getAll = async (req, res, next) => {
             customers
         );
     } catch (error) {
-        console.log(error)
         next(error);
     }
 };

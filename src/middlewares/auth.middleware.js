@@ -7,7 +7,7 @@ const authAdmin = async (req, res, next) => {
   try {
     const custom_header = req.header('X-custom-header');
     const token = req.header("Authorization");
-    console.log(token)
+
     // if(custom_header !== process.env.CUSTOM_HEADER) {
     //   throw new Error('Error - Header');
     // }
